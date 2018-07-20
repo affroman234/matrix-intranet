@@ -1,0 +1,16 @@
+$family-sans-serif: "Gotham Narrow A","Gotham Narrow B",sans-serif;
+$grey-light: #ededed;
+$grey-lighter: #f8f8f8;
+$light: #f0f0f0;
+$purple: #8547ad;
+$purple-light: #B285CA;
+$red: #E4002B;
+
+$body-background: $grey-light;
+$primary: $purple;
+
+@import "~bulma/bulma";
+@import "partials/tables";
+@import "partials/buttons";
+@import "partials/modal";
+@import "partials/layout";

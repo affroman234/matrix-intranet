@@ -1,0 +1,21 @@
+.table {
+  border: 1px solid black;
+  
+  th {
+    font-weight: $weight-semibold;
+    color: $grey-darker;
+    td {
+      vertical-align: middle;
+      padding-top: 15px;
+    }
+  }
+  &--centered {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  &--small {
+    font-size: .9em;
+  }
+  
+}
